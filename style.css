@@ -134,8 +134,12 @@ footer {
 
 .quote {
     display: flex;
+    flex-direction: column;
     background-color: #E5E7EB;
-    padding: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 .quote .main {
@@ -146,4 +150,6 @@ footer {
 
 .quote .author {
     font-weight: 700;
+    justify-self: end;
+    flex-basis: 100%;
 }
