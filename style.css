@@ -101,8 +101,10 @@ footer {
     display: flex;
     justify-content: center;
     flex-direction: column;
-
-    padding: 100px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .info h2 {
@@ -116,13 +118,18 @@ footer {
 .catalogue {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
 }
 
-.item {
+.item-img {
     border: 2px solid #3882F6;
     border-radius: 6px;
+    border-width: 4px;
     padding: 50px;
+}
+
+.item-subtext {
+    text-align: center;
 }
 
 .quote {
